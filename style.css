@@ -60,3 +60,129 @@ nav ul {
   margin: 0;
   padding: 10px 0;
 }
+
+.totm {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.totm-titles {
+  color: seashell;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* or center/gap, depending on spacing you want */
+  gap: 40px; /* adds spacing between items */
+}
+
+.teas div {
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+
+.teas img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.tea-item h4 {
+  color: seashell;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.locations{
+  position: relative; /* creates a positioning context */
+  width: 1200px; /* or a fixed width like 1200px */
+  height: 700px;
+  margin: 50px auto;
+  display: flex;
+  
+
+}
+
+.locations img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.location-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: seashell;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.location-content h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.location-boxes{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.location-box{
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+.location-box h3, 
+.location-box p {
+  margin: 40px ;
+}
+
+
+footer {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  height: 200px;
+}
+
+footer h2,
+footer h5
+{
+  color: seashell;
+  margin: 40px 0;
+}
+
+footer h3{
+  color: seashell;
+  text-align: left;
+  margin: 20px 50px;
+}
+
+  
+  
+
+  
+  
+ 
+  
+
+
+
