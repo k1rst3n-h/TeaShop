@@ -28,37 +28,35 @@ nav ul {
   text-decoration: underline; 
 }
 
-.bowl{
-  width: 1200px;
-  height: 700px;
-  padding: 10px;
-  margin: 0 auto;
-  display: block;
-}
 
-.image-container {
+.img-container {
   position: relative; /* creates a positioning context */
-  width: 100%; /* or a fixed width like 1200px */
-  max-width: 1200px;
+  width: 1200px; /* or a fixed width like 1200px */
+  height: 700px;
   margin: 0 auto;
 }
 
-.image-container img {
-  width: 1200px;
-  height: 700px;
+.img-container img {
+  width: 100%;
+  height: 100%;
   display: block;
+  object-fit: cover;
 }
 
 .overlay-text {
   position: absolute;
-  top: 50%;               /* vertical center */
-  left: 50%;              /* horizontal center */
-  transform: translate(-50%, -50%); /* true centering */
-  color: seashell;
-  font-weight: bold;
-  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: black;
+  color: seashell;
+  text-align: center;
+  padding: 20px 40px;
   width: 1200px;
+}
+
+.overlay-text h2,
+.overlay-text h4 {
   margin: 0;
-  padding: 0;
+  padding: 10px 0;
 }
