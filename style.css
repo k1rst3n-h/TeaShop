@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica;
+}
+
+.header{
+  display: flex;
+  height: 69px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+}
+
+.logo {
+  height: 50px;
+  width: 150px;
+}
+
+nav {
+  color: seashell;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  text-decoration: underline; 
+}
+
+.bowl{
+  width: 1200px;
+  height: 700px;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.image-container {
+  position: relative; /* creates a positioning context */
+  width: 100%; /* or a fixed width like 1200px */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.image-container img {
+  width: 1200px;
+  height: 700px;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;               /* vertical center */
+  left: 50%;              /* horizontal center */
+  transform: translate(-50%, -50%); /* true centering */
+  color: seashell;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+}
